@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.hero{
+    min-height: 100vh;
+    background: url(image3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.logo{
+    color: #f2eaea;
+    font-size: 30px;
+    font-weight: bolder;
+    
+    
+}
+
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    margin: 0 20px;
+}
+
+nav ul li a{
+    font-size: 15px;
+    color: #f3ecec;
+    text-transform: uppercase;
+    transition: 5s;
+}
+
+nav ul li a:hover{
+    color: #e78f38;
+    border-bottom:2px solid #e78f38 ;
+    scale:.8;
+}
+
+nav button{
+    background: #ef9841;
+    border: none;
+    color: #fff;
+    padding: 12px 35px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 2rem;
+    transition: .3s;
+}
+
+nav button:hover{
+    scale: .8;
+}
+
+.content{
+    position: absolute;
+    top: 25%;
+    
+     
+   
+}
+
+h2{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #eee;
+    text-align: left;
+}
+p{
+    font-size: 15px;
+    margin-top: 10px;
+    color: #eee;
+}
+
+.content button{
+    margin-top: 50px;
+    background: #e78f38;
+    border: 2px solid #e78f38;
+    color: #fff;
+    padding: 12px 45px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 2rem;
+    transition: .3s;
+}
+
+.content button:hover{
+    scale: .8;
+}
+.content button.know_more{
+    background: #e78f38;
+    border: 2px solid #e78f38;
+    color: #f6f3f1;
+    margin-left: 15px;
+}
+
+.content button.know_more:hover{
+    background: #f2f1ef;
+    color: #9d0808;
+}
+.menu{
+    min-height: 2200px;
+    background: url(MENU2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+   
